@@ -16,6 +16,10 @@
 		54BF9E082AD8267D0071F4A5 /* Test_ScreenTransactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF9E072AD8267D0071F4A5 /* Test_ScreenTransactionTests.swift */; };
 		54BF9E122AD8267D0071F4A5 /* Test_ScreenTransactionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF9E112AD8267D0071F4A5 /* Test_ScreenTransactionUITests.swift */; };
 		54BF9E142AD8267D0071F4A5 /* Test_ScreenTransactionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF9E132AD8267D0071F4A5 /* Test_ScreenTransactionUITestsLaunchTests.swift */; };
+		54BF9E212AD827EE0071F4A5 /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF9E202AD827EE0071F4A5 /* SeguePushViewController.swift */; };
+		54C1727C2ADAB43600CC9981 /* SeguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1727B2ADAB43600CC9981 /* SeguePresentViewController.swift */; };
+		54C1727E2ADAB59700CC9981 /* codePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1727D2ADAB59700CC9981 /* codePushViewController.swift */; };
+		54C172802ADAB7EC00CC9981 /* codePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1727F2ADAB7EC00CC9981 /* codePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		54BF9E0D2AD8267D0071F4A5 /* Test-ScreenTransactionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-ScreenTransactionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54BF9E112AD8267D0071F4A5 /* Test_ScreenTransactionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_ScreenTransactionUITests.swift; sourceTree = "<group>"; };
 		54BF9E132AD8267D0071F4A5 /* Test_ScreenTransactionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_ScreenTransactionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54BF9E202AD827EE0071F4A5 /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
+		54C1727B2ADAB43600CC9981 /* SeguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePresentViewController.swift; sourceTree = "<group>"; };
+		54C1727D2ADAB59700CC9981 /* codePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codePushViewController.swift; sourceTree = "<group>"; };
+		54C1727F2ADAB7EC00CC9981 /* codePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		54BF9DE42AD8267B0071F4A5 = {
 			isa = PBXGroup;
 			children = (
+				54C1727F2ADAB7EC00CC9981 /* codePresentViewController.swift */,
+				54C1727D2ADAB59700CC9981 /* codePushViewController.swift */,
 				54BF9DEF2AD8267B0071F4A5 /* Test-ScreenTransaction */,
 				54BF9E062AD8267D0071F4A5 /* Test-ScreenTransactionTests */,
 				54BF9E102AD8267D0071F4A5 /* Test-ScreenTransactionUITests */,
@@ -103,6 +113,8 @@
 				54BF9DF22AD8267B0071F4A5 /* SceneDelegate.swift */,
 				54BF9DF42AD8267B0071F4A5 /* ViewController.swift */,
 				54BF9DF62AD8267B0071F4A5 /* Main.storyboard */,
+				54C1727B2ADAB43600CC9981 /* SeguePresentViewController.swift */,
+				54BF9E202AD827EE0071F4A5 /* SeguePushViewController.swift */,
 				54BF9DF92AD8267D0071F4A5 /* Assets.xcassets */,
 				54BF9DFB2AD8267D0071F4A5 /* LaunchScreen.storyboard */,
 				54BF9DFE2AD8267D0071F4A5 /* Info.plist */,
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C172802ADAB7EC00CC9981 /* codePresentViewController.swift in Sources */,
+				54BF9E212AD827EE0071F4A5 /* SeguePushViewController.swift in Sources */,
+				54C1727E2ADAB59700CC9981 /* codePushViewController.swift in Sources */,
 				54BF9DF52AD8267B0071F4A5 /* ViewController.swift in Sources */,
 				54BF9DF12AD8267B0071F4A5 /* AppDelegate.swift in Sources */,
+				54C1727C2ADAB43600CC9981 /* SeguePresentViewController.swift in Sources */,
 				54BF9DF32AD8267B0071F4A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
